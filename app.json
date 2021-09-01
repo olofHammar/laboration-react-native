@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "olof-hammar-lab",
+    "slug": "olof-hammar-lab",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "olof-hammar-lab"
+}
