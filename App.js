@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { StyleSheet, View } from "react-native";
-import TabNavigation from "./scr/components/navigationFolder/tabNavigation";
+import TabNavigation from "./scr/components/navigation";
 import { MyGlobalContext } from "./scr/globalContext"
 
 export default function App() {

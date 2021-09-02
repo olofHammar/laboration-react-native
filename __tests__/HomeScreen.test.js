@@ -1,5 +1,5 @@
 import React from "react";
-import HomeScreen from "../scr/screens/HomeScreenFolder/HomeScreen";
+import HomeScreen from "../scr/screens/HomeScreen";
 import renderer from "react-test-renderer";
 import { render, fireEvent } from "@testing-library/react-native";
 
