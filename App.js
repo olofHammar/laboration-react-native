@@ -1,21 +1,25 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useState } from "react";
+import { StyleSheet, View } from "react-native";
+import TabNavigation from "./scr/components/navigationFolder/tabNavigation";
+import { MyGlobalContext } from "./scr/globalContext"
 
 export default function App() {
+  const [copy, setCopy] = useState("...");
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <MyGlobalContext.Provider value={{ copy, setCopy }}>
+    <View style={styles.container} id="main_screen">
+      <TabNavigation />
     </View>
+  </MyGlobalContext.Provider>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "white",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });

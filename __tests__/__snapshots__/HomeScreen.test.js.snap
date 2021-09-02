@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "padding": 20,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 18,
+        "fontWeight": "600",
+        "letterSpacing": 1.01,
+        "lineHeight": 18,
+      }
+    }
+    testID="homeTitle"
+  >
+    Memes App
+  </Text>
+  <Text
+    style={
+      Object {
+        "height": 0,
+        "opacity": 0,
+      }
+    }
+    testID="testInputText"
+  >
+    
+  </Text>
+  <View
+    style={
+      Object {
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <RCTScrollView
+      data={
+        Array [
+          "https://hungryturtlecode.com/assets/dont_always_ie-321ee0175fd6d38744c2f2868c4eed3269777627e45c737fe0072c83c66c6b30.jpg",
+          "https://bulliesout.com/wp-content/uploads/2021/03/tomemeornot3.jpg",
+          "https://image.winudf.com/v2/image1/Y29tLm1uYXBwc3MuZnVubnltZW1lc19zY3JlZW5fM18xNTQ4NjUwMTk4XzA0NQ/screen-3.jpg?fakeurl=1&type=.jpg",
+        ]
+      }
+      decelerationRate="fast"
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={true}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      showsHorizontalScrollIndicator={false}
+      snapToAlignment="center"
+      snapToInterval={740}
+      stickyHeaderIndices={Array []}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://hungryturtlecode.com/assets/dont_always_ie-321ee0175fd6d38744c2f2868c4eed3269777627e45c737fe0072c83c66c6b30.jpg",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 250,
+                  "resizeMode": "contain",
+                },
+                Object {
+                  "width": 720,
+                },
+              ]
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://bulliesout.com/wp-content/uploads/2021/03/tomemeornot3.jpg",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 250,
+                  "resizeMode": "contain",
+                },
+                Object {
+                  "width": 720,
+                },
+              ]
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://image.winudf.com/v2/image1/Y29tLm1uYXBwc3MuZnVubnltZW1lc19zY3JlZW5fM18xNTQ4NjUwMTk4XzA0NQ/screen-3.jpg?fakeurl=1&type=.jpg",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 250,
+                  "resizeMode": "contain",
+                },
+                Object {
+                  "width": 720,
+                },
+              ]
+            }
+          />
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "margin": 10,
+        "marginBottom": 20,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 18,
+          "fontWeight": "600",
+          "letterSpacing": 1.01,
+          "lineHeight": 18,
+        }
+      }
+    >
+      Memes
+    </Text>
+    <Text
+      style={
+        Object {
+          "letterSpacing": 1.01,
+          "lineHeight": 18,
+          "marginVertical": 10,
+        }
+      }
+    >
+      An Internet meme, more commonly known simply as a meme (/miːm/ MEEM), is an idea, behavior, or style (meme) that is spread via the Internet, often through social media platforms and especially for humorous purposes. What is considered a meme may vary across different communities on the Internet and is subject to change over time.
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 15,
+          "fontWeight": "600",
+          "letterSpacing": 1.01,
+          "lineHeight": 18,
+          "marginTop": 10,
+        }
+      }
+    >
+      I think memes are 
+      
+    </Text>
+  </View>
+  <TextInput
+    allowFontScaling={true}
+    defaultValue=""
+    onChangeText={[Function]}
+    placeholder="Enter what you think of memes...."
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "borderColor": "#D1D1D1",
+        "borderWidth": 1,
+        "height": 40,
+        "paddingStart": 8,
+      }
+    }
+    testID="userInputText"
+    underlineColorAndroid="transparent"
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#e47911",
+          "borderColor": "#a15e1b",
+          "borderRadius": 5,
+          "borderWidth": 1.5,
+          "height": 45,
+          "justifyContent": "center",
+          "marginVertical": 10,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 16,
+            "fontWeight": "400",
+          },
+          undefined,
+        ]
+      }
+    >
+      Update My Opinion
+    </Text>
+  </View>
+</View>
+`;
